@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+This will enable maintaining a history of changes to files
+enabling going back and forth between changes
+A .git folder is created which keeps the metadata associated with any changes to files in the repository being tracked
+it wont start tracking till the files are manually added for tracking
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Working directory is where all changes to your file are made - this is moved to the staging area when you are working on a subset of your files while making a logical change. And repository is used when the logical change has been completed successfully 
