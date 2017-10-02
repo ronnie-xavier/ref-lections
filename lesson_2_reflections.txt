@@ -5,4 +5,16 @@ A .git folder is created which keeps the metadata associated with any changes to
 it wont start tracking till the files are manually added for tracking
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-Working directory is where all changes to your file are made - this is moved to the staging area when you are working on a subset of your files while making a logical change. And repository is used when the logical change has been completed successfully 
+Working directory is where all changes to your file are made - this is moved to the staging area when you are working on a subset of your files while making a logical change. And repository is used when the logical change has been completed successfully
+
+How can you use the staging area to make sure you have one commit per logical change?
+You keep adding files that you need for that logical change
+Continue making changes and in between move to staging area
+Once that logical change is done and working on your system, final changes are saved to staging area
+Then do a git diff —staged to see if someone else has changed any other files, and once you make sure all changes are understood, you do a git commit
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+branches give easily identifiable names to different work streams
+These can be merged in later with other branches once this branch works
+for us, we create branches for each release - keeping code logically separate
