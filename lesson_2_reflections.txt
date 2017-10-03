@@ -14,7 +14,7 @@ Once that logical change is done and working on your system, final changes are s
 Then do a git diff —staged to see if someone else has changed any other files, and once you make sure all changes are understood, you do a git commit
 
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-branches give easily identifiable names to different work streams
-These can be merged in later with other branches once this branch works
-for us, we create branches for each release - keeping code logically separate
+How do the diagrams help you visualize the branch structure?
+Helps to understand the multiple flows going on at a time
+And the separate flows can be visualised anytime
+
