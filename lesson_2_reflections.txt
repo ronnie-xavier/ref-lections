@@ -22,3 +22,7 @@ How do the diagrams help you visualize the branch structure?
 Helps to understand the multiple flows going on at a time
 And the separate flows can be visualised anytime
 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The changes introduced since these branches deviated can be combined together
+Functionality can be developed individually and once these are working fine indepenedently then these can be merged
