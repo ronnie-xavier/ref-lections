@@ -26,3 +26,12 @@ And the separate flows can be visualised anytime
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The changes introduced since these branches deviated can be combined together
 Functionality can be developed individually and once these are working fine indepenedently then these can be merged
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros
+its faster
+its supposed to be accurate
+its supposed to be conservative and hence would be on the safer side
+cons
+you are never sure whether all differences have been highlighted - but i think they will be.. so maybe not a con after all
+
